@@ -1,2 +1,3 @@
 # Discord-Roblox-Friend-Bot
-A discord bot in Python using nextcord which can bot friend requests on Roblox.
+This bot is made using NextCord and utilizes a open source botting tool (Anatomy)<br>
+NOTE: For people from Titan, this is not Titans Source Code lol.
