@@ -60,7 +60,7 @@ def send_friend(cookie, userid): # SendFriend Function
 @client.slash_command(name = "friend", description='friend botter', guild_ids=[ServerId]) # FriendBot Command
 async def friendcommand(interaction: Interaction,  user_id:str,):
     userid = user_id
-    amount = 1
+    amount = 1 # amount of requests (based on cookie count)
     friendEmbed = nextcord.Embed(title='Discord Bot', description=f'NOTE: This may not send the full amount of friends.', color=0xFFE80B)
     await interaction.response.send_message(embed=friendEmbed)
     for x in range(int(amount)):
